@@ -13,31 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace API_Premium_Project
+namespace API_Premium_Project.View
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour PageVoyage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PageVoyage : UserControl
     {
-        public MainWindow()
+        public PageVoyage()
         {
             InitializeComponent();
-        }
-
-        private void BTN_Bourse_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void BTN_Voyage_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void BTN_Horloge_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
