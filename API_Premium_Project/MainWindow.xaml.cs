@@ -1,4 +1,5 @@
-﻿using System;
+﻿using API_Premium_Project.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,16 +28,23 @@ namespace API_Premium_Project
 
         private void BTN_Bourse_Click(object sender, RoutedEventArgs e)
         {
-
+            Ecran.Children.Clear();
+            PageBourse pageBourse = new PageBourse();
+            Ecran.Children.Add(pageBourse);
         }
 
         private void BTN_Voyage_Click(object sender, RoutedEventArgs e)
         {
-
+            Ecran.Children.Clear();
+            PageVoyage pageVoyage = new PageVoyage();
+            Ecran.Children.Add(pageVoyage);
         }
 
         private void BTN_Horloge_Click(object sender, RoutedEventArgs e)
         {
+            Ecran.Children.Clear();
+            PageHorloge pageHorloge = new PageHorloge();
+            Ecran.Children.Add(pageHorloge);
 
         }
     }
